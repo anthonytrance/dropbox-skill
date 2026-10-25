@@ -25,6 +25,10 @@ Ask your agent to find, share or move files. Sharing, invitations and deletions 
 
 Run `python -m pytest scripts`. The tests are offline.
 
+## Licence
+
+MIT; see `LICENSE`.
+
 ## Privacy
 
 Never commit the credentials file; git ignores it. Personal notes for your installation can go in a `LOCAL.md` beside `SKILL.md`, which git also ignores. The pre-commit hook in `.githooks` runs `tools/check_secrets.py` to block tokens and words from your private word list.
